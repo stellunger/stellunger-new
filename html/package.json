@@ -1,0 +1,13 @@
+{
+  "name": "Shtellunger",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-oversprite": "~0.1.4",
+    "grunt-csso": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-string-replace": "~0.2.4"
+  }
+}

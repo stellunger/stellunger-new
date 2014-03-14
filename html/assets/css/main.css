@@ -1,0 +1,623 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: Arial;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'sansus_webissimoregular';
+    src: url('../fonts/sansus_webissimo-regular-webfont.eot');
+    src: url('../fonts/sansus_webissimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansus_webissimo-regular-webfont.woff') format('woff'),
+         url('../fonts/sansus_webissimo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    min-width: 1000px;
+    background: #666;
+}
+
+#wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #fff;
+    -webkit-box-shadow:  0px 0px 40px 0px rgba(0, 0, 0, 1);
+    box-shadow:  0px 0px 40px 0px rgba(0, 0, 0, 1);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#head {
+    height: 107px;
+    padding-top: 30px;
+    background: url(../images/head.gif) repeat-x top left;
+}
+    #head #logo {
+        float: left;
+    }
+    #head #phone {
+        float: right;
+        text-align: right;
+    }
+        #head #phone #number {
+            font-family: 'sansus_webissimoregular';
+            font-size: 60px;
+            line-height: 48px;
+        }
+            #head #phone #number span {
+                color: #6f6f6f;
+            }
+        #head #phone #numberHelp {
+            font-size: 21px;
+            line-height: 32px;
+        }
+
+#promo {
+    height: 300px;
+    padding-top: 52px;
+    background: #1f466c url(../images/promo.jpg) no-repeat top center;
+    text-align: center;
+}
+    #promo .want {
+        display: inline-block;
+        font-family: 'sansus_webissimoregular';
+        font-size: 70px;
+        line-height: 82px;
+        padding: 0 13px;
+        color: #1f466c;
+        background: #fbfbfb;
+    }
+    #promo .clients {
+        display: inline-block;
+        margin: -15px 0 15px -10px;
+        font-family: 'sansus_webissimoregular';
+        font-size: 70px;
+        line-height: 76px;
+        padding: 0 10px 6px 20px;
+        color: #fff;
+        background: #1f466c;
+        -moz-transform: scale(1) rotate(-1.5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1) rotate(-1.5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1) rotate(-1.5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1) rotate(-1.5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale(1) rotate(-1.5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    }
+    #promo p {
+        font-family: 'sansus_webissimoregular';
+        font-size: 22px;
+        color: #fff;
+    }
+
+#leadInfo {
+    text-align: center;
+    padding-top: 44px;
+}
+    #leadInfo .get {
+        margin-top: -93px;
+    }
+    #leadInfo .get a.btn {
+        display: block;
+        margin: 0 auto;
+        width: 593px;
+        height: 98px;
+        background-repeat: no-repeat;
+        background-image: url(../images/get.png);
+        font-family: 'sansus_webissimoregular';
+        font-size: 40px;
+        line-height: 98px;
+        color: #1f466c;
+        text-decoration: none;
+        text-shadow: 0px 1px 1px #ffffff;
+        filter: dropshadow(color=#ffffff, offx=0, offy=1);
+    }
+    #leadInfo .get a.btn:hover {
+        background-image: url(../images/get_hover.png);
+    }
+    #leadInfo .get a.btn:active {
+        background-image: url(../images/get_pressed.png);
+    }
+
+    #leadInfo .what {
+        font-size: 24px;
+        line-height: 30px;
+        color: #fff;
+        background: #1f466c;
+        padding: 5px;
+    }
+    #leadInfo .what span {
+        color: #00afe8;
+    }
+    #leadInfo .mission {
+        font-family: 'sansus_webissimoregular';
+        font-size: 43px;
+        line-height: 44px;
+        margin: 0 0 23px 0;
+    }
+    #leadInfo .mission span {
+        color: #1f466c;
+    }
+    #leadInfo h2 {
+        font-family: 'sansus_webissimoregular';
+        font-size: 43px;
+        line-height: 36px;
+        margin: 0;
+    }
+    #leadInfo .generation {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 14px 0 34px 0;
+    }
+    #leadInfo .generation span {
+        color: #424242;
+    }
+
+#benifits {
+    height: 404px;
+    background: url(../images/benifits.gif) repeat-x top left;
+}
+    #benifits ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #benifits ul li {
+        margin: 0;
+        padding: 172px 0 0 0;
+        list-style: none;
+        float: left;
+        width: 200px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+        background: transparent no-repeat center 50px;
+    }
+    #benifits ul li.price {
+        background-image: url(../images/ruble.png);
+    }
+    #benifits ul li.growth {
+        background-image: url(../images/arrow_up.png);
+    }
+    #benifits ul li.conversion {
+        background-image: url(../images/plane.png);
+    }
+    #benifits ul li.promotion {
+        background-image: url(../images/finger.png);
+    }
+    #benifits ul li.result {
+        background-image: url(../images/check.png);
+    }
+    #benifits ul li .title {
+        text-align: center;
+    }
+    #benifits ul li .title h5 {
+        display: inline;
+        font-family: 'sansus_webissimoregular';
+        font-size: 22px;
+        line-height: 22px;
+        background: #1f466c;
+        font-weight: normal;
+    }
+    #benifits ul li .title span {
+        display: inline-block;
+        padding: 0 6px;
+        margin-bottom: 6px;
+    }
+    #benifits ul li.promotion span {
+        padding: 0 3px;
+    }
+    #benifits ul li.promotion span:first-child {
+        padding: 0 10px;
+    }
+
+#second {
+    background: url(../images/bg.png) repeat top left;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+    #second .how {
+        overflow: hidden;
+        position: relative;
+    }
+    #second .how .title {
+        text-align: center;
+    }
+    #second .how .title h2 {
+        display: inline-block;
+        font-family: 'sansus_webissimoregular';
+        font-size: 43px;
+        line-height: 58px;
+        font-weight: normal;
+        color: #000;
+        background: #fff;
+        margin: 0 0 33px -12px;
+        padding: 0 15px 0 30px;
+        -moz-transform: scale(1) rotate(-1.2deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1) rotate(-1.2deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1) rotate(-1.2deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1) rotate(-1.2deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale(1) rotate(-1.2deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    }
+        #second .how .item {
+            float: left;
+            width: 200px;
+            padding: 56px 0 0 0;
+            background: transparent no-repeat center 0;
+            text-align: center;
+            font-size: 12px;
+            line-height: 14px;
+            margin: 0 0 96px 66px;
+        }
+        #second .how .item:first-child {
+            margin-left: 0;
+        }
+        #second .how .item h4 {
+            font-family: 'sansus_webissimoregular';
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: normal;
+            margin: 0;
+        }
+        #second .how .item p {
+            margin: 8px 0;
+        }
+        #second .how .analyze {
+            background-image: url(../images/analyse.png);
+        }
+        #second .how .contract {
+            margin-top: 95px;
+            background-image: url(../images/contract.png);
+        }
+        #second .how .site {
+            background-image: url(../images/site.png);
+        }
+        #second .how .promotion {
+            margin-top: 95px;
+            background-image: url(../images/promotion.png);
+        }
+        #second .how .arrow {
+            display: block;
+            position: absolute;
+        }
+        #second .how .arrow1 {
+            top: 118px;
+            left: 203px;
+        }
+        #second .how .arrow2 {
+            top: 232px;
+            left: 428px;
+        }
+        #second .how .arrow3 {
+            top: 118px;
+            left: 717px;
+        }
+        #second .how .arrow4 {
+            top: 388px;
+            left: 795px;
+        }
+        #second .how img.clients {
+            display: block;
+            margin: 0 auto 14px auto;
+        }
+        #second .how h2.clients {
+            text-align: center;
+            font-family: 'sansus_webissimoregular';
+            font-size: 48px;
+            line-height: 54px;
+            font-weight: normal;
+            margin: 0 0 70px 0;
+        }
+
+    #second form {
+        padding: 18px 200px;
+        font-size: 22px;
+        color: #000;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0px 0px 51px 0px #000;
+        box-shadow: 0px 0px 51px 0px #000;
+        background: #00bbf1; /* Old browsers */
+        background: -moz-linear-gradient(top, #00abe5 0%, #258dc8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00abe5), color-stop(100%,#258dc8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #00abe5 0%,#258dc8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #00abe5 0%,#258dc8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #00abe5 0%,#258dc8 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #00abe5 0%,#258dc8 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00abe5', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+    }
+    #second form h2 {
+        text-align: center;
+        font-family: 'sansus_webissimoregular';
+        font-size: 48px;
+        font-weight: normal;
+        margin: 0 0 14px 0;
+    }
+    #second form p {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    #second form label {
+        display: block;
+        float: left;
+        width: 200px;
+        line-height: 26px;
+        padding: 14px 0;
+    }
+    #second form input,
+    #second form textarea {
+        width: 372px;
+        height: 28px;
+        font-size: 24px;
+        line-height: 28px;
+        border: 0;
+        padding: 12px;
+        border: 1px solid #007ea1;
+        margin-bottom: 26px;
+    }
+    #second form textarea {
+        height: 180px;
+    }
+    #second form .submit {
+        padding-left: 200px;
+    }
+    #second form input.button {
+        font-family: 'sansus_webissimoregular';
+        font-size: 40px;
+        font-weight: normal;
+        border: 0;
+        width: 402px;
+        height: 96px;
+        background-repeat: no-repeat;
+        background-image: url(../images/button.png);
+        color: #fff;
+        text-shadow: 0px 0px 3px #000000;
+        filter: dropshadow(color=#000000, offx=0, offy=0);
+    }
+    #second form input.button:hover {
+        background-image: url(../images/button_hover.png);
+    }
+    #second form input.button:active {
+        background-image: url(../images/button_pressed.png);
+    }
+
+    #second #goTop {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    #second #goTop a {
+        color: #fff;
+    }
+
+    #second #phoneBigHelp {
+        text-align: center;
+        font-family: 'sansus_webissimoregular';
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 10px 0;
+    }
+    #second #phoneBigHelp span {
+        font-size: 50px;
+        color: #00b7ef;
+    }
+    #second #phoneBig {
+        text-align: center;
+        font-family: 'sansus_webissimoregular';
+        font-size: 152px;
+        line-height: 152px;
+    }
+
+#footer {
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
